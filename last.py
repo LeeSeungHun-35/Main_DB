@@ -7,7 +7,7 @@ import numpy as np
 import random
 import isodate  # 추가된 부분
 
-API_KEY = "AIzaSyAp5hMS446mV4i3QCAWd9bdfzKpv_idDTk"  
+API_KEY = "[본인의 유튜브 API 키 입력]"  
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 def connect_mongodb():
